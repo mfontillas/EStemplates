@@ -10,7 +10,7 @@ body{
     position: absolute;
 }
 .pfp{
-    width: 25%;
+    width: 120px;
     padding: none;
     position: absolute;
     left: 5%;
@@ -19,14 +19,16 @@ body{
     border-radius: 50%;
 }
 body{
+    width: 1080px;
     background-color: black;
+    margin: auto;
 }
 .banner{
-    width: 100%;
+    width: 665px;
     height:25%;
     contain: content;
     padding: none;
 }
 .name{
-    
+
 }
