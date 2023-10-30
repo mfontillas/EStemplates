@@ -1,5 +1,26 @@
+<<<<<<< HEAD
 body{
     background-color: black;
+}
+.banner{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    object-position: top;
+    padding: none;
+    position: absolute;
+}
+.pfp{
+    width: 20%;
+    padding: none;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+=======
+body{
+    background-color: black;
+>>>>>>> 423d549d7052b0fca8efcd3529055c739f003432
 
 }
 .banner{
