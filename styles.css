@@ -30,5 +30,19 @@ body{
     padding: none;
 }
 .name{
-
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.handle{
+    color: gray;
+    font-size: 12pt;
+}
+p{
+    padding: none;
+    margin: none;
+    line-height: 8pt;
 }
