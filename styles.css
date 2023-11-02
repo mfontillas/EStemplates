@@ -1,22 +1,18 @@
 body{
     background-color: black;
 }
-.banner{
-    width: 100%;
-    height: 30%;
-    object-fit: cover;
-    object-position: top;
-    padding: none;
-    position: absolute;
+html{
+    background-color: black;
 }
 .pfp{
     width: 125px;
     padding: none;
     position: absolute;
-    left: 5%;
-    top: 16%;
+    left: 25px;
+    top: 115px;
     border: 4px solid;
     border-radius: 50%;
+    border-color: black;
 }
 body{
     width: 1080px;
@@ -24,10 +20,13 @@ body{
     margin: auto;
 }
 .banner{
-    width: 665px;
-    height:25%;
+    width: 565px;
+    height:178px;
     contain: content;
     padding: none;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
 }
 .name{
     color: white;
@@ -66,4 +65,16 @@ p{
     top: 178px;
     height: 52px;
     left: 335px;
+}
+.whotofollow{
+    position:absolute;
+    top:575.5px; 
+    height: 350px;
+    left: 10px;
+}
+.pfpmini{
+    position: absolute;
+    top: 600px;
+    height: 100px;
+    left: 10px; 
 }
