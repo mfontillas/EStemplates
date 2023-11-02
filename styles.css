@@ -64,5 +64,6 @@ p{
 .follow{
     position: absolute;
     top: 675px;
-    
+    height: 30px;
+    left: 300px;
 }
