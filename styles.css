@@ -53,3 +53,11 @@ p{
     height: 275px;
     left: 9.25px;
 }
+.twtext{
+    position:absolute;
+    top:510px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size:11pt;
+    left: 75px;
+}
