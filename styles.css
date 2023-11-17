@@ -1,6 +1,9 @@
 body{
     background-color: black;
     margin: auto;
+    contain: content;
+    width: 100%;
+    height: 100%;
 }
 html{
     background-color: black;
@@ -47,7 +50,7 @@ p{
     position: absolute;
     top: 308px;
     height: 275px;
-    left: 9.25px;
+    left: 9px;
 }
 .twtext{
     position:absolute;
@@ -63,15 +66,11 @@ p{
     height: 52px;
     left: 365px;
 }
-.whotofollow{
-    position:absolute;
-    top:575.5px; 
-    height: 350px;
-    left: 10px;
-}
 .pfpmini{
     position: absolute;
     top: 494px;
     height:42px;
     left: 23px; 
+    border: 1px solid black;
+    border-radius: 50%;
 }
