@@ -1,40 +1,43 @@
-body{
-    background-color: black;
-    margin: auto;
-    contain: content;
-    width: 100%;
-    height: 100%;
-}
 html{
     background-color: black;
 }
+body{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
 .pfp{
-    width: 20%;
+    width: 125px;
     padding: none;
     position: absolute;
-    left: 2%;
-    top: 17%;
+    left: 25px;
+    top: 115px;
     border: 4px solid;
     border-radius: 50%;
     border-color: black;
 }
-
 .banner{
-    width: 100%;
-    height: 25%;
+    width: 580px;
+    height:178px;
     contain: content;
     padding: none;
     object-fit: cover;
     object-position: top;
-    position: absolute;
 }
 .name{
     color: white;
     position: absolute;
-    top: 35%;
-    left: 3%;
+    top: 250px;
+    left: 20px;
     font-size: 16pt;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bio{
+    position: absolute;
+    top: 308px;
+    height: 275px;
+    left: 9px;
 }
 .handle{
     color: #71767b;
@@ -46,31 +49,25 @@ p{
     margin: none;
     line-height: 4.5pt;
 }
-.bio{
-    position: absolute;
-    top: 45%;
-    height: 275px;
-    left: 9px;
-}
 .twtext{
     position:absolute;
-    top: 74%;
+    top:510px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size:11pt;
-    left: 13%;
+    left: 75px;
 }
 .follow{
     position: absolute;
-    top: 26%;
-    height: 7%;
-    left: 64%;
+    top: 178px;
+    height: 52px;
+    left: 365px;
 }
 .pfpmini{
     position: absolute;
-    top: 72%;
-    height: 6%;
-    left: 4%; 
+    top: 494px;
+    height:42px;
+    left: 23px; 
     border: 1px solid black;
     border-radius: 50%;
 }
