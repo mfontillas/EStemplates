@@ -4,7 +4,7 @@ html{
 .container{
     background-color: black;
     margin: auto;
-    width: 100%;
+    width: 600px;
     height: 100%;
 }
 .pfp{
@@ -18,7 +18,7 @@ html{
     border-color: black;
 }
 .banner{
-    width: 580px;
+    width: 600px;
     height:178px;
     contain: content;
     padding: none;
@@ -71,18 +71,6 @@ p{
     border: 1px solid black;
     border-radius: 50%;
 }
-/* .temp{
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    margin-top: -58px;
-    margin-left: 10px;
-} */
-
-
 @media only screen and (max-width:600px){
     .container{
         transform: scale(.6);
