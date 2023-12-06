@@ -1,7 +1,7 @@
 html{
     background-color: black;
 }
-body{
+.container{
     background-color: black;
     margin: auto;
     width: 100%;
@@ -59,8 +59,8 @@ p{
 }
 .follow{
     position: absolute;
-    top: 178px;
-    height: 52px;
+    top: 190px;
+    height: 50px;
     left: 350px;
 }
 .pfpmini{
@@ -82,9 +82,10 @@ p{
     margin-left: 10px;
 } */
 
-/* convert for mobile 400/600 
+
 @media only screen and (max-width:600px){
-    body{
-        width:400px;
+    .container{
+        transform: scale(.6);
+        transform-origin: top left;
     }
 }
