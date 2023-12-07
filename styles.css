@@ -1,5 +1,6 @@
 .container{
     width: 600px;
+    height: 610px;
     padding: 0;
     margin: 0;
 }
@@ -67,6 +68,18 @@ p{
     color: #71767b;
     display: inline;
 }
+#loc{
+    height: 20px;
+    position: absolute;
+    top: 373px;
+    left: 16px;
+}
+#link{
+    height: 16px;
+    position: absolute;
+    top: 375px;
+    left: 135px;
+}
 p3{
     display: inline;
 }
@@ -95,6 +108,7 @@ p2{
     position: absolute;
     top: 456px;
     left: 15px;
+    line-height: 1.35;
 }
 p4{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -103,20 +117,93 @@ p4{
     padding: 20px;
     font-weight: bold;
 }
-.divider{
+
+.divA{
+    position: absolute;
+    top: 494px;
+    left: 0;
+    z-index: 2;
     height: 1px;
     width: 600px;
     box-shadow: inset 0 0 0 1px rgba(113, 118, 123, 1);
 }
-#divA{
-    position: absolute;
-    top: 494px;
-    left: 0;
-}
-#divB{
+.divB{
     position: absolute;
     top: 608px;
     left: 0;
+    z-index: 2;
+    height: 1px;
+    width: 600px;
+    box-shadow: inset 0 0 0 1px rgba(113, 118, 123, 1);
+}
+.linkweb{
+    color:#1D9BF1;
+}
+.pinned{
+    position: absolute;
+    top: 502px;
+    left: 68px;
+    color: purple;
+    font-size: 10pt;
+}
+#pinned{
+    position: absolute;
+    top: 503px;
+    left: 42px;
+    width: 11px;
+    height: auto;
+    object-fit: fit;
+}
+.pfpmini{
+    width: 40px;
+    height: 40px;
+    border: black 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 521px;
+    left: 14px;
+    z-index: 2;
+}
+.twtname{
+    position: absolute;
+    top: 505px;
+    left: 67px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12pt;
+    z-index: 2;
+}
+.handledate{
+    position: absolute;
+    top: 522px;
+    left: 165px;
+    color: #71767b;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    z-index: 2;
+}
+.twttext{
+    position: absolute;
+    top: 531px;
+    left: 69px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 11pt;
+    z-index: 2;
+}
+.twtnav{
+    position: absolute;
+    top: 519px;
+    left: 0px;
+    width: 600px;
+    z-index: 1;
+}
+.following{
+    position: absolute;
+    top: 225px;
+    left: 410px;
+    width: 150px;
 }
 .temp{
     width: 600px;
