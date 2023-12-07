@@ -103,7 +103,21 @@ p4{
     padding: 20px;
     font-weight: bold;
 }
-
+.divider{
+    height: 1px;
+    width: 600px;
+    box-shadow: inset 0 0 0 1px rgba(113, 118, 123, 1);
+}
+#divA{
+    position: absolute;
+    top: 494px;
+    left: 0;
+}
+#divB{
+    position: absolute;
+    top: 608px;
+    left: 0;
+}
 .temp{
     width: 600px;
     height: auto;
