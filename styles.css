@@ -1,8 +1,9 @@
+
 .container{
     width: 600px;
     height: 610px;
-    padding: 0;
-    margin: 0;
+    position: absolute;
+    background-color: black;
 }
 p{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,6 +15,8 @@ p{
     top: 0;
     left: 0;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    object-position: top;
 }
 .pfp{
     width:130px;
@@ -54,7 +57,7 @@ p{
     height: auto;
     position: absolute;
     top: 326px;
-    left: 15px;
+    left: 17px;
     color: white;
 }
 .links{
@@ -68,13 +71,13 @@ p{
     color: #71767b;
     display: inline;
 }
-#loc{
+.loc{
     height: 20px;
     position: absolute;
     top: 373px;
     left: 16px;
 }
-#link{
+.link{
     height: 16px;
     position: absolute;
     top: 375px;
@@ -113,7 +116,7 @@ p2{
 p4{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12pt;
-    color: purple;
+    color: white;
     padding: 20px;
     font-weight: bold;
 }
@@ -143,10 +146,18 @@ p4{
     position: absolute;
     top: 502px;
     left: 68px;
-    color: purple;
+    color: white;
     font-size: 10pt;
 }
-#pinned{
+.pinned{
+    position: absolute;
+    top: 502px;
+    left: 67px;
+    width: 11px;
+    height: auto;
+    object-fit: fit;
+}
+img.pinned{
     position: absolute;
     top: 503px;
     left: 42px;
@@ -155,8 +166,8 @@ p4{
     object-fit: fit;
 }
 .pfpmini{
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
     border: black 1px solid;
     border-radius: 50%;
     position: absolute;
@@ -201,19 +212,16 @@ p4{
 }
 .following{
     position: absolute;
-    top: 225px;
-    left: 410px;
-    width: 150px;
+    top: 200px;
+    left: 345px;
+    width: 245px;
 }
-.temp{
-    width: 600px;
-    height: auto;
-    opacity: 0.3;
+.bar{
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    margin-top: -58px;
-} 
+    width: 60px;
+    left: 10px;
+    top: 33px;
+}
+
 
 
